@@ -14,7 +14,7 @@ X = data
 Y = [0] * 10 + [1] * 10
 
 # 모델 생성
-from sklearn .neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier
 kn = KNeighborsClassifier()
 
 # 학습
